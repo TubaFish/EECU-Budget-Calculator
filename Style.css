@@ -10,6 +10,9 @@ body{
     padding:0;
     margin:0;
     background-color:#E4EDFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 nav {
     display:flex;
@@ -28,11 +31,12 @@ nav {
     border-radius:0px;
     padding-bottom:0;
     height:auto;
-    width: 100px;
+    width: 300px;
 }
 .last{
     margin-right:5%
 }
+
 a{
     color:#0056a6;
     background-color: white;
@@ -77,3 +81,16 @@ h2{
 #selectC select {
     width: 20vw;
 }
+
+.green {
+    width: 38vh;
+    height: 6vh;
+    background-color: var(--green);
+    color: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
